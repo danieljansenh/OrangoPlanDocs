@@ -1,2 +1,2 @@
-# OrangoPlan.github.io
+# OrangoPlan
 OrangoPlan Grasshopper plugin documentation
