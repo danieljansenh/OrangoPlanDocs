@@ -1,0 +1,18 @@
+site_name: OrangoPlan
+site_url: https://danieljansenh.github.io/OrangoPlan/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - About: 
+    - About me: works/about.md
+    - Test: works/txt.md
