@@ -1,5 +1,5 @@
 site_name: OrangoPlan
-site_url: https://danieljansenh.github.io/OrangoPlan/
+site_url: https://mydomain.org/mysite
 theme:
   name: material
   features:
@@ -10,9 +10,29 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode  
+
+
+plugins:
+  - search
 
 nav:
   - Home: index.md
   - About: 
     - About me: works/about.md
-    - Test: works/txt.md
+    - Test: works/text.md
