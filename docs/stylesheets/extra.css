@@ -1,7 +1,7 @@
 :root > * {
     --md-primary-fg-color:        #292a2b;
     --md-primary-fg-color--light: #dddddd;
-    --md-primary-fg-color--dark:  #2c2c2c;
+    --md-primary-fg-color--dark:  #3f3f3f;
     --md-primary-bg-color: #ffffff;
     --md-default-bg-color: #ffffff;
     --md-default-fg-color--light:#f35529;
@@ -19,7 +19,7 @@
 
 .md-typeset h2 {
     font-size: 1.2em;
-    font-weight: 800;
+    font-weight: 400;
     color: var(--md-default-fg-color--hl);
     background-color: var(--md-default-bg-color--hl);
 }
