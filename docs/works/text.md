@@ -1,7 +1,0 @@
-## Next Life
-
-Sesame Street is an American educational children's television series that combines live-action, sketch comedy, animation, and puppetry. It is produced by Sesame Workshop (known as the Children's Television Workshop until June 2000) and was created by Joan Ganz Cooney and Lloyd Morrisett. It is known for its images communicated through the use of Jim Henson's Muppets, and includes short films, with humor and cultural references. It premiered on November 10, 1969, to positive reviews, some controversy,[13] and high viewership. It has aired on the United States national public television provider PBS since its debut, with its first run moving to premium channel HBO on January 16, 2016, then its sister streaming service HBO Max in 2020, and most recently Netflix in 2025.
-
-
-## Undone
-Shortly after its creation, its producers developed what came to be called the CTW Model (after the production company's previous name), a system of planning, production, and evaluation based on collaboration between producers, writers, educators, and researchers. The show was initially funded by government and private foundations but has become somewhat self-supporting due to revenues from licensing arrangements, international sales, and other media. By 2006, independently produced versions ("co-productions") of Sesame Street were broadcast in 20 countries. In 2001, there were over 120 million viewers of various international versions of Sesame Street; and by its 40th anniversary in 2009, it was broadcast in more than 140 countries.

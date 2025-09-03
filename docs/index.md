@@ -3,6 +3,8 @@ made by Daniel J Harianto @2025 Jakarta, Indonesia
 Last updated at 2025/07/07
 
 
+ ![Alt text for the image](D:/OneDrive/Daniel Jansen/0314-GitHub/OrangoPlanDocs/docs/assets/03_Sample.png "Optional hover text")
+
 !!! pied-piper "Pied Piper"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et

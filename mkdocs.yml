@@ -65,33 +65,29 @@ theme:
     #- navigation.footer
 
 
-  palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+  # palette: 
+  #   # Palette toggle for light mode
+  #   - scheme: default
+  #     toggle:
+  #       icon: material/brightness-7 
+  #       name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode  
+  #   # Palette toggle for dark mode
+  #   - scheme: slate
+  #     toggle:
+  #       icon: material/brightness-4
+  #       name: Switch to light mode  
 
 
 plugins:
   - search
 
-
-
 nav:
   - Home: index.md
   - About: 
-    - About me: works/about.md
-    - Test: works/text.md
+    - Toolkit: works/Tool_Explanation.md
+    - Explanatory: works/Utility.md
 
-
-    
 extra:
   social:
     - icon: fontawesome/brands/github 
