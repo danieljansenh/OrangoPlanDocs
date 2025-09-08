@@ -40,8 +40,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Cabin";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -138,6 +138,8 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
@@ -169,6 +171,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -322,9 +326,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#utility" class="md-nav__link">
+  <a href="#design_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Utility
+      Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
     </span>
   </a>
   
@@ -377,7 +390,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -412,9 +427,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#utility" class="md-nav__link">
+  <a href="#design_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Utility
+      Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
     </span>
   </a>
   
@@ -433,6 +457,8 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+
 
 
 
@@ -440,102 +466,303 @@
 
 <h2 id="analysis">Analysis</h2>
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Nickname</th>
-<th style="text-align: center;">Function</th>
-<th style="text-align: center;">Input</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Centroid</td>
-<td style="text-align: center;">Centroid</td>
-<td style="text-align: center;">Analyze centroid each closed curve</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 1A</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Computes the shortest path between two points along a network of curves</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 2A</td>
-<td style="text-align: center;">Cell 2B</td>
-<td style="text-align: center;">Cell 3D</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-</tbody>
+<table style="width:100%; table-layout:auto; border-collapse: collapse;">
+
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align:center;">Tool</th>
+      <th rowspan="2" style="text-align:center;">Function</th>
+      <th colspan="3" style="text-align:center;">Input</th>
+      <th colspan="3" style="text-align:center;">Output</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
 </table>
+
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
 <h2 id="design">Design</h2>
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Nickname</th>
-<th style="text-align: center;">Function</th>
-<th style="text-align: center;">Input</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Centroid</td>
-<td style="text-align: center;">Centroid</td>
-<td style="text-align: center;">Analyze centroid each closed curve</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 1A</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Computes the shortest path between two points along a network of curves</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 2A</td>
-<td style="text-align: center;">Cell 2B</td>
-<td style="text-align: center;">Cell 3D</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-</tbody>
+<table style="width:100%; table-layout:auto; border-collapse: collapse;">
+
+  <thead>
+    <tr>
+      <th style="text-align:center;">Tool</th>
+      <th style="text-align:center;">Function</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
 </table>
+
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
-<h2 id="utility">Utility</h2>
+<h2 id="design_1">Design</h2>
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Nickname</th>
-<th style="text-align: center;">Function</th>
-<th style="text-align: center;">Input</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Centroid</td>
-<td style="text-align: center;">Centroid</td>
-<td style="text-align: center;">Analyze centroid each closed curve</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 1A</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Computes the shortest path between two points along a network of curves</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-<tr>
-<td style="text-align: left;">Cell 2A</td>
-<td style="text-align: center;">Cell 2B</td>
-<td style="text-align: center;">Cell 3D</td>
-<td style="text-align: center;">Cell 3D</td>
-</tr>
-</tbody>
+<table style="width:100%; table-layout:auto; border-collapse: collapse;">
+
+  <thead>
+    <tr>
+      <th style="text-align:center;">Tool</th>
+      <th style="text-align:center;">Function</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
 </table>
+
+<p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
+<h2 id="design_2">Design</h2>
+<p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
+<table style="width:100%; table-layout:auto; border-collapse: collapse;">
+
+  <thead>
+    <tr>
+      <th style="text-align:center;">Tool</th>
+      <th style="text-align:center;">Function</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+      <th style="text-align:center;">Initial</th>
+      <th style="text-align:center;">Name</th>
+      <th style="text-align:center;">Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+      <td style="text-align:center;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
+          <span>Centroid</span>
+        </div>
+      </td>
+      <td>Analyze centroid of each closed curve</td>
+      <td style="text-align:center;">C</td>
+      <td>Curve</td>
+      <td>Curves to compute convex hull</td>
+      <td style="text-align:center;">C</td>
+      <td>Curves</td>
+      <td>Curves to compute convex hull</td>
+    </tr>
+  </tbody>
+
+</table>
+
 <p>The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.</p>
 
 
@@ -544,8 +771,13 @@
 
 
 
+  
+  
 
 
+
+
+  
 
 
 
@@ -557,6 +789,12 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -566,7 +804,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Daniel J Harianto
+      Copyright © 2025 Daniel J Harianto
     </div>
   
   
@@ -605,7 +843,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
