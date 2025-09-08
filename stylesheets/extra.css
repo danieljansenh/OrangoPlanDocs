@@ -12,45 +12,46 @@
   }
 
 .md-typeset h1 {
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 600;
     line-height: 1.2;
 }
 
 .md-typeset h2 {
-    font-size: 1.2em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 600;
     color: var(--md-default-fg-color--hl);
     background-color: var(--md-default-bg-color--hl);
 }
 
 .md-typeset h3 {    
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 600;
     color: var(--md-default-fg-color--hl);
     background-color: var(--md-default-bg-color--hl);
 }
 
 .md-typeset h4 {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 300;
     background-color: var(--md-default-bg-color--hl);
 }
 
 .md-typeset h5 {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 300;
     color: var(--md-primary-fg-color--dark);
     text-transform: none;
 }
 
 .md-typeset {
+    font-size: 1.5em;
     font-weight: 100;
     line-height: 1.2;
 }
 
 .md-typeset mark {
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-weight: 200;
     background-color: var(--md-default-bg-color--hl);
 }
