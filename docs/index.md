@@ -1,9 +1,14 @@
-## Authorship
-made by Daniel J Harianto @2025 Jakarta, Indonesia  
-Last updated at 2025/07/07
+---
+hide:
+  # - navigation
+  - toc
+---
 
 
- ![Alt text for the image](D:/OneDrive/Daniel Jansen/0314-GitHub/OrangoPlanDocs/docs/assets/03_Sample.png "Optional hover text")
+ ![Alt text for the image](assets/Sample_03.png "Usage example") 
+
+
+ ![Alt text for the image](assets/Sample_02.png "Usage example") 
 
 !!! pied-piper "Pied Piper"
 
@@ -37,3 +42,8 @@ Last updated at 2025/07/07
 - Freeman, Linton (1977) A set of measures of centrality based on betweenness, Sociometry.
 - Sevtsuk, A (2010) Path and Place: A Study of Urban Geometry and Retail Activity in Cambridge and Somerville, MA.
 - Dijkstra, E W (1959) A note on two problems in connexion with graphs.
+
+
+## Authorship
+made by Daniel J Harianto @2025 Jakarta, Indonesia  
+Last updated at 2025/07/07

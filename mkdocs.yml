@@ -1,6 +1,6 @@
 site_name: OrangoPlan Documentation
 site_url: https://danieljansenh.github.io/OrangoPlan/
-copyright: Copyright &copy; 2025 Daniel J Harianto
+copyright: Copyright © 2025 Daniel J Harianto
 
 extra_css:
   - stylesheets/extra.css
@@ -13,12 +13,8 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.details
-  - admonition
   - attr_list
   - md_in_html
   - pymdownx.emoji:
@@ -43,41 +39,36 @@ markdown_extensions:
 theme:
   name: material
   features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - toc.integrate
+    # - navigation.instant
+    # - navigation.instant.progress
+    # - navigation.instant.preview
+    # - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    # - toc.integrate (this was adding the right-hand ToC)
     - navigation.top
     - search.suggest
     - search.highlight
-
-  font:
-    text: Cabin
-  logo: assets/Logo.png
-  favicon: assets/Logo.png
-  features:
     - content.code.copy
     - content.code.select
-    #- navigation.footer
+    # - navigation.footer
 
+  font:
+    text: Arial
+  logo: assets/Logo.png
+  favicon: assets/Logo.png
 
-  # palette: 
-  #   # Palette toggle for light mode
-  #   - scheme: default
-  #     toggle:
-  #       icon: material/brightness-7 
-  #       name: Switch to dark mode
-
-  #   # Palette toggle for dark mode
-  #   - scheme: slate
-  #     toggle:
-  #       icon: material/brightness-4
-  #       name: Switch to light mode  
-
+# Palette example (commented out):
+# palette: 
+#   - scheme: default
+#     toggle:
+#       icon: material/brightness-7 
+#       name: Switch to dark mode
+#   - scheme: slate
+#     toggle:
+#       icon: material/brightness-4
+#       name: Switch to light mode  
 
 plugins:
   - search
