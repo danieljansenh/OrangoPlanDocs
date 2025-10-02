@@ -93,10 +93,25 @@
     padding: 0.5em;          /* Adjust padding for better readability */
 }
 
-/* Optional: add alternating row color */
-.md-typeset table tr:nth-child(even) {
-    background-color: #f8f8f8;
+.table-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
 }
+.note {
+    background-color: #fefcbf;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #f6ad55;
+}
+
+
+/* Optional: add alternating row color */
+/* .md-typeset table tr:nth-child(even) {
+    background-color: #f8f8f8;
+} */
 
 /* Optional: border for clarity */
 /* .md-typeset table, 
